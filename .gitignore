@@ -1,0 +1,36 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+dataset_SDR/
+
+# Virtual environments
+venv/
+.env/
+*.env
+
+# Jupyter / Python notebooks
+.ipynb_checkpoints/
+
+# Output directories
+plots/
+checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Conda environment lock
+*.lock
+
+# Logs and temp
+*.log
+*.tmp
+
+# VSCode settings
+.vscode/
+
+# Data
+*.npy
+*.mat
+*.h5
+*.csv

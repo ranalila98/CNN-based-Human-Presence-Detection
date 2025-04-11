@@ -1,0 +1,17 @@
+name: sdrcsi_env
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.8.5
+  - pytorch=1.10.2
+  - cudatoolkit=10.2
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+      - matplotlib
+      - seaborn
+      - pandas
+      - scikit-learn
